@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Board from './boardPokemon.js';
+import React from 'react';
+import Board from './components/BoardPokemon.js';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Board/>
+        <Board />
       </div>
     );
   }

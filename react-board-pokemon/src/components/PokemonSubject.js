@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+
 export default class Pokemon extends React.Component{
     constructor(props){
         super(props);
